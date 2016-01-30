@@ -28,3 +28,7 @@ val bCal:BetterCalculator = BetterCalculator("Ticketfly")
 bCal.brand
 bCal.add(1,2)
 
+val nCal = bCal.changeName("New Calculator")
+nCal.brand
+
+
